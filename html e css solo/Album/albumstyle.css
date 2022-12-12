@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Atma', cursive;
+}
+
+body {
+  background-image: url(https://images.wallpapersden.com/image/download/minimal-abstract-2021-art_bGxla2aUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* titolo e add */
+
+.layover {
+ background-color: rgba(219, 219, 219, 0.2);
+ width: 100%;
+ height: 100%;
+}
+
+.container {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+header {
+  border-bottom: 1px solid white;
+  position: relative;
+}
+header, a {
+  color: white;
+}
+
+.add a, .see a{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.title, .see {
+  display: inline-block;
+}
+
+.see {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* Albums */
+
+main {
+  color: white;
+  margin-top: 20px;
+}
+
+.album.ph {
+  width: calc(100% / 6 - 20px);
+  margin: 10px;
+  float: left;
+}
+
+.album.ph img {
+  width: 100%;
+}
+
+.time, .number {
+  font-size: 15px;
+}

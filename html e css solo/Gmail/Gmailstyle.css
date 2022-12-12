@@ -1,0 +1,77 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.container {
+  width: 900px;
+}
+
+#logo img{
+  width: 150px;
+}
+
+#titolo {
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  padding: 10px 0 10px 0;
+}
+
+#cerca {
+  width: 200px;
+}
+
+#number {
+  color: red;
+  background-color: yellow;
+  border-radius: 100px;
+}
+
+main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.unread {
+  color: white;
+  font-size: 20px;
+}
+.caselle {
+  margin: 2px;
+  padding: 2px;
+}
+
+.caselle, .lette{
+  background-color: lightgrey;
+}
+
+.caselle.nonlette{
+  background-color: #8f8f8f;
+}
+
+.oggetto {
+  display: inline-block;
+  width: 40%;
+}
+
+.contenuto {
+  display: inline-block;
+  color: #454545;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#piè {
+  font-size: 25px;
+}

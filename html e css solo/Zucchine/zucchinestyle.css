@@ -1,0 +1,17 @@
+main > #zucchine {
+  width: 400px;
+  height: auto;
+}
+
+main > #piselli {
+  width: 400px;
+  height: auto;
+}
+
+table, tr, td {
+  border: 3px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}

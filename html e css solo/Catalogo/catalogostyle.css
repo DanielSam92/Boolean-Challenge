@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-image: url(https://www.redpine.it/wp-content/uploads/2021/03/IMMAGINE-E-COMMERCE-PRINCIPALE-scaled.jpg);
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+  height: 600px;
+}
+
+.row {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+.prodotto {
+  display: inline-block;
+  position: relative;
+  border-radius: 15px;
+}
+
+.primo {
+  width: 32%;
+  height: 100%;
+  background-image: url(pd1.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 3px;
+
+}
+
+.secondo {
+  width: 32%;
+  height: 100%;
+  background-image: url(pd2.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 3px;
+}
+
+.terzo {
+  width: 32%;
+  height: 100%;
+  background-image: url(pd3.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 3px;
+}
+
+.buy {
+  color: red;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.buy img {
+  width: 120px;
+}
+
+.prodotto:hover .buy{
+  display: block;
+}
+
+.discount {
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  line-height: 40px;
+  border-radius: 15px;
+}
+
+.small {
+  background-color: green;
+  width: 40px;
+  height: 40px;
+}
+
+.big {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}

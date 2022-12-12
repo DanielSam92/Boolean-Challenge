@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  padding: 80px;
+  margin-top: 20px;
+}
+
+header > h1 {
+  color: #1ef749;
+  font-weight: bold;
+}
+
+header, nav {
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+}
+
+nav {
+  background-color: #1ef749;
+  height: 30px;
+  padding: 5px;
+  margin: auto;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.monopattini {
+  color: white;
+}
+
+.modello {
+  display: inline-block;
+}
+
+.downside {
+  font-size: 13px;
+}
+
+.battery, .a, .b, .c {
+  height: 20px;
+}
+
+.battery.a{
+  background-color: orange;
+  border-radius: 7px;
+  width: 45%;
+}
+
+.battery.b{
+  background-color: green;
+  border-radius: 7px;
+  width: 65%;
+}
+
+.battery.c {
+  background-color: red;
+  border-radius: 7px;
+  width: 15%;
+}

@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+.destinazione {
+  height: 60vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.city {
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid white;
+}
+
+.city a {
+  color: white;
+  text-decoration: none;
+}
+
+.layover{
+  background-color: rgba(167,196,201,0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.kyoto {
+  background-image: url(ph1.jpeg);
+
+}
+
+.newyork {
+  background-image: url(ph2.jpeg);
+}
+
+.singapore {
+  background-image: url(ph3.jpeg);
+}
+
+.seul{
+  background-image: url(ph4.jpeg);
+}

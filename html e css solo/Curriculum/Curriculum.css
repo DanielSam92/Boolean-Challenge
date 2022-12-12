@@ -1,0 +1,19 @@
+header {
+  background-color: lightgrey;
+  border-bottom: 1px solid orange;
+  text-align: center;
+}
+
+.title img {
+  height: 250px;
+  border-radius: 100px;
+}
+
+h2, hr {
+  color: orange;
+}
+
+
+h3 {
+  font-style: italic;
+}
